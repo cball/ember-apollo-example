@@ -21,6 +21,13 @@ module.exports = function(environment) {
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
+    },
+
+    apollo: {
+      apiURL: 'https://api.graph.cool/simple/v1/cj7byh67c01xw0183q3vdf3df'
+      // Optionally, set the credentials property of the Fetch Request interface
+      // to control when a cookie is sent:
+      // requestCredentials: 'same-origin', // other choices: 'include', 'omit'
     }
   };
 
