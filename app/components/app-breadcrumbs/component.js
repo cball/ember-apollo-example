@@ -10,6 +10,11 @@ export default Component.extend({
 
     if (currentRouteName === 'index') return [];
 
-    return currentRouteName.split('/').map(n => n.capitalize());
+    return currentRouteName.split('/').map(nested =>
+      nested
+        .split('-')
+        .map(n => n.capitalize())
+        .join(' ')
+    );
   })
 });
