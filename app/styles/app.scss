@@ -4,6 +4,7 @@ body {
   padding: 0;
   color: #333;
   background-color: #f8f8f8;
+  font-family: Lato;
 }
 
 .container {
@@ -20,9 +21,22 @@ body {
 }
 
 .sidebar a {
-  color: #fff;
+  color: #ccc;
   font-size: 18px;
   text-decoration: none;
+}
+
+.sidebar a.active {
+  color: #fff;
+}
+
+.sidebar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar li {
 }
 
 main {
@@ -50,6 +64,10 @@ main {
   background-color: #fff;
   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.06);
   border-radius: 4px;
+
+  &.padding {
+    padding: 1rem;
+  }
 }
 
 @import 'pod-styles';

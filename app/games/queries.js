@@ -2,7 +2,7 @@ import gql from 'graphql-tag';
 
 export const allGamesQuery = gql`
   query {
-    allGames(orderBy: updatedAt_DESC) {
+    allGames(orderBy: lastGameUpdate_DESC) {
       id
       currentRound {
         id
@@ -13,9 +13,6 @@ export const allGamesQuery = gql`
         firstName
         lastName
         email
-      }
-      _usersMeta {
-        count
       }
     }
   }

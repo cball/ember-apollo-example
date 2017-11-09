@@ -1,0 +1,5 @@
+{{#each users as |user|}}
+  <span class="avatar-wrapper">
+    {{gravatar-image email=user.email size=32}}
+  </span>
+{{/each}}

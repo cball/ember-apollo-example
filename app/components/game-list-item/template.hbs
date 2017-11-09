@@ -1,3 +1,10 @@
 <div class="row">
-  Game #{{game.id}}
+  <div>
+    Game #{{game.id}}
+  </div>
+  <div>
+    Round {{game.currentRound.number}}
+  </div>
 </div>
+
+{{user-avatars class="avatars" users=game.users}}

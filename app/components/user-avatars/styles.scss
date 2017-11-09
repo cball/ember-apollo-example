@@ -1,0 +1,12 @@
+.avatar-wrapper {
+  img {
+    margin-right: -20px;
+    border-radius: 50%;
+  }
+}
+
+.avatar-wrapper:last-of-type {
+  img {
+    margin-right: 0;
+  }
+}

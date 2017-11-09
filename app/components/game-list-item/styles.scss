@@ -1,6 +1,8 @@
 & {
   padding: 1.2rem;
   position: relative;
+  display: flex;
+  align-items: center;
 }
 
 &:not(:first-of-type):before {
@@ -11,4 +13,8 @@
   left: 0;
   right: 0;
   background-color: #ebebeb;
+}
+
+.avatars {
+  margin-left: auto;
 }

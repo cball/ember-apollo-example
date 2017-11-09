@@ -1,0 +1,17 @@
+# app/gql/queries/all-games.graphql
+
+query {
+  allGames(orderBy: lastGameUpdate_DESC) {
+    id
+    currentRound {
+      id
+      number
+    }
+    users {
+      id
+      firstName
+      lastName
+      email
+    }
+  }
+}
