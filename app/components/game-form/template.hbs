@@ -1,0 +1,13 @@
+<div class="card padding">
+  <h2>Create a new game</h2>
+  <form {{action onCreateGame game on="submit"}}>
+    <div class="form-item">
+      <label>Emoji Phrase</label>
+      {{input type="text" value=game.emojiPhrase placeholder="Enter some emoji! ex: :tent: :heart:" }}
+    </div>
+
+    <div class="actions">
+      <button type="submit">Create Game</button>
+    </div>
+  </form>
+</div>

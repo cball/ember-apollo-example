@@ -1,5 +1,8 @@
 {{!-- app/games/template.hbs --}}
-
 <div class="card">
   {{game-list games=model.allGames}}
 </div>
+
+{{#link-to 'new-game' class="add-button"}}
+  +
+{{/link-to}}

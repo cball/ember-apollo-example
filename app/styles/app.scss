@@ -5,6 +5,7 @@ body {
   color: #333;
   background-color: #f8f8f8;
   font-family: Lato;
+  font-size: 16px;
 }
 
 .container {
@@ -68,6 +69,50 @@ main {
   &.padding {
     padding: 1rem;
   }
+}
+
+.add-button {
+  position: absolute;
+  bottom: 3rem;
+  right: 4rem;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  background: #a2d2df;
+  border: none;
+  color: white;
+  font-size: 31px;
+  font-family: sans-serif;
+  border-radius: 50%;
+  text-decoration: none;
+  width: 1.5em;
+  height: 1.5em;
+  line-height: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  border: none;
+  background: #396d7c;
+  color: white;
+  padding: 0.5rem 1rem;
+  font-size: 17px;
+  border-radius: 4px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  padding: 0;
 }
 
 @import 'pod-styles';
