@@ -103,6 +103,10 @@ button {
   padding: 0.5rem 1rem;
   font-size: 17px;
   border-radius: 4px;
+
+  &:disabled {
+    opacity: 0.3;
+  }
 }
 
 h1,
