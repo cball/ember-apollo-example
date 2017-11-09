@@ -4,6 +4,7 @@
 module.exports = function(environment) {
   let ENV = {
     modulePrefix: 'ember-apollo',
+    usePods: true,
     environment,
     rootURL: '/',
     locationType: 'auto',
