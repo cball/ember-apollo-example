@@ -1,0 +1,9 @@
+<ul>
+  <li>
+    {{link-to 'My Dashboard' 'index'}}
+  </li>
+  {{#each breadcrumbs as |breadcrumb|}}
+    <li><span>&gt;</span></li>
+    <li>{{breadcrumb}}</li>
+  {{/each}}
+</ul>

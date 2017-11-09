@@ -1,0 +1,14 @@
+& {
+  padding: 1.2rem;
+  position: relative;
+}
+
+&:not(:first-of-type):before {
+  content: '';
+  position: absolute;
+  top: -1px;
+  height: 1px;
+  left: 0;
+  right: 0;
+  background-color: #ebebeb;
+}

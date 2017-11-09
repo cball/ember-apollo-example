@@ -1,13 +1,15 @@
 <div class="container">
   <div class="sidebar">
-    Sidebar.
+    <ul>
+      <li>{{link-to 'Home' 'index'}}</li>
+      <li>{{link-to 'Games' 'games'}}</li>
+    </ul>
   </div>
   <main>
     <div class="main-header">
-      My Dashboard
+      {{app-breadcrumbs}}
     </div>
     <div class="body-wrapper">
-      foo
       {{outlet}}
     </div>
   </main>

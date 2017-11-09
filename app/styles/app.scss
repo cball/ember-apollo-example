@@ -19,8 +19,16 @@ body {
   padding: 1rem;
 }
 
+.sidebar a {
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+}
+
 main {
   flex: 1;
+  display: flex;
+  flex-direction: column;
 }
 
 .main-header {
@@ -31,5 +39,17 @@ main {
 }
 
 .body-wrapper {
-  padding: 2rem;
+  padding: 1rem 2rem;
+  overflow-y: auto;
 }
+
+.card {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #fff;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.06);
+  border-radius: 4px;
+}
+
+@import 'pod-styles';

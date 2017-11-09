@@ -1,0 +1,7 @@
+<ul class="game-list">
+  {{#each games as |game|}}
+    {{game-list-item game=game}}
+  {{else}}
+    <li>No games.</li>
+  {{/each}}
+</ul>
